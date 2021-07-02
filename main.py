@@ -28,7 +28,7 @@ operators_choiche = [key for key in operations]
 
 operation_symbol = input(f'insert operator {operators_choiche}: ')
 
-answer = calculation_function = operations[operation_symbol]
+answer =  operations[operation_symbol]
 
 print(f"{a} {operation_symbol} {b} = {answer}")
 
